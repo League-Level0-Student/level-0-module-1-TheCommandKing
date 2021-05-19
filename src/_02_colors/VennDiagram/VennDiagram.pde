@@ -1,1 +1,13 @@
 size(600,600);
+noStroke();
+fill(255,0,0,100);
+ellipse(250,350,200,200);
+fill(255,255,0,100);
+ellipse(350,350,200,200);
+fill(0,30,255,100);
+ellipse(300,250,200,200);
+fill(0,0,0);
+textSize(15);
+text("Amazing",225,350);
+text("Sweet",325,350);
+text("Funny", 275,250);
