@@ -24,11 +24,11 @@ public class RobotInSpace implements KeyEventDispatcher {
 	 * Robot and rob.setAngle(angle) to change the direction of your Robot. //Do
 	 * not add code here - go to step 2
 	 */
-
 	private void moveRobot(int keyPressed) throws InterruptedException {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
-
+int key = keyPressed;
+printIn(key);
 		// 3. If the up arrow is pressed, move the Robot up the screen.
 
 		// 4. If the down arrow is pressed, move the Robot down.
